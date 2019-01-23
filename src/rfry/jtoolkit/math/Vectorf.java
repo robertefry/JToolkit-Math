@@ -1,5 +1,5 @@
 
-package robertfry.toolkit.math;
+package rfry.jtoolkit.math;
 
 public class Vectorf extends Vector<Float> {
 	private static final long serialVersionUID = 5936250311100377076L;

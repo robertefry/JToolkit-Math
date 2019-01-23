@@ -1,5 +1,5 @@
 
-package robertfry.toolkit.math;
+package rfry.jtoolkit.math;
 
 public class Matrixf extends Matrix<Float> {
 	private static final long serialVersionUID = 6001317260990461425L;

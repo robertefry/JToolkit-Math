@@ -1,7 +1,7 @@
 
-package robertfry.toolkit.math;
+package rfry.jtoolkit.math;
 
-import robertfry.toolkit.helper.NestHelper;
+import rfry.jtoolkit.execution.NestedExecution;
 
 public abstract class Tensor<T extends Number> extends CompoundNumber<T> {
 	private static final long serialVersionUID = -2179007532294255142L;
@@ -42,7 +42,7 @@ public abstract class Tensor<T extends Number> extends CompoundNumber<T> {
 	public String toString() {
 		final StringBuilder sb = new StringBuilder();
 		final int[] limits = indices(size() - 1);
-		NestHelper.nestedincludedfor(limits, position -> {
+		NestedExecution.nestedincludedfor(limits, position -> {
 			
 			for (int i = position.length - 1; i >= 0; i--) if (position[i] == 0) {
 				sb.append("{");

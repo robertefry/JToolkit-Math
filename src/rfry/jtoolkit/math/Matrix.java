@@ -1,5 +1,5 @@
 
-package robertfry.toolkit.math;
+package rfry.jtoolkit.math;
 
 public abstract class Matrix<T extends Number> extends Tensor<T> {
 	private static final long serialVersionUID = 2840265538070180093L;

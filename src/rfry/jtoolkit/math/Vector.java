@@ -1,5 +1,5 @@
 
-package robertfry.toolkit.math;
+package rfry.jtoolkit.math;
 
 public abstract class Vector<T extends Number> extends Tensor<T> {
 	private static final long serialVersionUID = 7966410148605600534L;

@@ -1,5 +1,5 @@
 
-package robertfry.toolkit.math;
+package rfry.jtoolkit.math;
 
 import java.util.Iterator;
 
